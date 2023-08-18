@@ -14,7 +14,8 @@ This is a solution to the
 ### Links
 
 - Solution URL:
-- Live Site URL:
+  https://www.frontendmentor.io/solutions/space-tourism-spa-website-with-vue-and-tailwind-Ot8nBKcJ2Y
+- Live Site URL: https://space-tourism-murex-three.vercel.app/
 
 ### The challenge
 
