@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-[100vh] lg:bg-crew-desktop-img md:bg-crew-tablet-img bg-crew-mobile-img bg-cover bg-center">
+    class="w-full lg:bg-crew-desktop-img md:bg-crew-tablet-img bg-crew-mobile-img bg-cover bg-center">
     <BaseNav />
 
     <main class="md:container px-5 mt-12 text-white">
@@ -12,7 +12,7 @@
       </div>
 
       <section
-        class="lg:mt-12 mt-7 text-white flex items-start lg:justify-between justify-center md:flex-col flex-col-reverse lg:flex-row gap-24 mb-16">
+        class="lg:mt-12 mt-7 text-white flex items-start lg:justify-between justify-center md:flex-col flex-col-reverse lg:flex-row gap-24">
         <div class="flex-1 flex md:flex-col flex-col-reverse">
           <!-- CONTENT -->
           <div

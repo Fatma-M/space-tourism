@@ -17,19 +17,19 @@
           <img
             src="../assets/destination/image-moon.png"
             class="w-[400px] animate-pulse hover:animate-none"
-            v-if="selectedDestination === 'moon'" />
+            v-show="selectedDestination === 'moon'" />
           <img
             src="../assets/destination/image-mars.png"
             class="w-[400px] animate-pulse hover:animate-none"
-            v-if="selectedDestination === 'mars'" />
+            v-show="selectedDestination === 'mars'" />
           <img
             src="../assets/destination/image-titan.png"
             class="w-[400px] animate-pulse hover:animate-none"
-            v-if="selectedDestination === 'titan'" />
+            v-show="selectedDestination === 'titan'" />
           <img
             src="../assets/destination/image-europa.png"
             class="w-[400px] animate-pulse hover:animate-none"
-            v-if="selectedDestination === 'europa'" />
+            v-show="selectedDestination === 'europa'" />
         </div>
 
         <div class="flex-1 flex flex-col">
@@ -72,7 +72,7 @@
           </div>
           <div class="content mt-3 lg:text-left text-center">
             <!-- MOON -->
-            <div class="moon" v-if="selectedDestination === 'moon'">
+            <div class="moon" v-show="selectedDestination === 'moon'">
               <h1 class="text-7xl uppercase tracking-wider mb-6">moon</h1>
               <p
                 class="text-gray tracking-wide pb-9 border-b-2 border-b-light-gray">
@@ -97,7 +97,7 @@
             </div>
 
             <!-- MARS -->
-            <div class="mars" v-if="selectedDestination === 'mars'">
+            <div class="mars" v-show="selectedDestination === 'mars'">
               <h1 class="text-7xl uppercase tracking-wider mb-6">mars</h1>
               <p
                 class="text-gray tracking-wide pb-9 border-b-2 border-b-light-gray">
@@ -121,7 +121,7 @@
             </div>
 
             <!-- EUROPA -->
-            <div class="mars" v-if="selectedDestination === 'europa'">
+            <div class="mars" v-show="selectedDestination === 'europa'">
               <h1 class="text-7xl uppercase tracking-wider mb-6">europa</h1>
               <p
                 class="text-gray tracking-wide pb-9 border-b-2 border-b-light-gray">
@@ -146,7 +146,7 @@
             </div>
 
             <!-- TITAN -->
-            <div class="mars" v-if="selectedDestination === 'titan'">
+            <div class="mars" v-show="selectedDestination === 'titan'">
               <h1 class="text-7xl uppercase tracking-wider mb-6">titan</h1>
               <p
                 class="text-gray tracking-wide pb-9 border-b-2 border-b-light-gray">
