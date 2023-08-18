@@ -9,7 +9,7 @@ This is a solution to the
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Built with](#built-with)
-- [Project setup](#Project-setup)
+- [Project setup](#project-setup)
 
 ### Links
 
