@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-full lg:bg-home-desktop-img md:bg-home-tablet-img bg-home-mobile-img bg-cover bg-center">
+    class="w-full min-h-[100vh] lg:bg-home-desktop-img md:bg-home-tablet-img bg-home-mobile-img bg-cover bg-center">
     <BaseNav />
     <main
       class="container mt-28 text-white flex items-center justify-between flex-col lg:flex-row">

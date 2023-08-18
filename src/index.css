@@ -8,3 +8,7 @@ body {
   font-family: "Bellefair", sans-serif;
   background-color: #0b0d17;
 }
+
+#app {
+  height: 100%;
+}
